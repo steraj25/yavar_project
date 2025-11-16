@@ -18,25 +18,19 @@ logging.basicConfig(
 logging.info("Application started")
 
 
-# try:
-#     # Try localhost first, otherwise use 'redis' (Docker)
-#     redis_client = redis.Redis(host=("localhost" if redis.Redis(host="localhost").ping() else "redis"), port=6379, db=0, decode_responses=True)
-# except:
-#     logging.error("Redis not connected - app exited")
-#     print("Redis not Connected - app exited")
-#     sys.exit(1)
-
-
 def init_redis():
+    # Try localhost first, otherwise use 'redis' (Docker)
     for host in ["localhost", "redis"]:
         try:
             r = redis.Redis(host=host, port=6379, decode_responses=True)
             r.ping()
             print(f"Connected to Redis at {host}")
+            logging.info(f"Connected to Redis at {host}")
             return r
         except:
             pass
-    print("Redis not connected")
+    print("Redis not connected  - app exited")
+    logging.error("Redis not connected - app exited")
     sys.exit(1)
 
 redis_client = init_redis()
