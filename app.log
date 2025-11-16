@@ -1,0 +1,70 @@
+2025-11-16 13:12:10,208 - INFO - Application started
+2025-11-16 13:12:26,221 - INFO - Application started
+2025-11-16 13:12:55,285 - INFO - Loaded 5056 items into Redis
+2025-11-16 13:13:15,558 - ERROR - /getRecentItem ERROR: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-11-16 13:14:46,523 - INFO - Application started
+2025-11-16 13:15:33,880 - INFO - Application started
+2025-11-16 13:15:53,351 - ERROR - /getRecentItem ERROR: name 'redis_client' is not defined
+2025-11-16 13:19:44,219 - INFO - Application started
+2025-11-16 13:19:48,569 - INFO - Application started
+2025-11-16 13:19:52,667 - ERROR - Redis not connected
+2025-11-16 13:22:27,768 - INFO - Application started
+2025-11-16 13:22:31,868 - ERROR - Redis not connected
+2025-11-16 13:24:29,470 - INFO - Application started
+2025-11-16 13:29:34,774 - INFO - Loading CSV...
+2025-11-16 13:29:35,379 - INFO - Total valid rows: 5056
+2025-11-16 13:29:35,379 - INFO - Flushing Redis...
+2025-11-16 13:29:35,390 - INFO - Redis database fully cleared
+2025-11-16 13:29:35,588 - INFO - Inserted 1000/5056...
+2025-11-16 13:29:35,716 - INFO - Inserted 2000/5056...
+2025-11-16 13:29:35,848 - INFO - Inserted 3000/5056...
+2025-11-16 13:29:36,026 - INFO - Inserted 4000/5056...
+2025-11-16 13:29:36,165 - INFO - Inserted 5000/5056...
+2025-11-16 13:29:36,175 - INFO - Inserted 5056/5056...
+2025-11-16 13:29:36,175 - INFO - Successfully inserted 5056 items into Redis.
+2025-11-16 13:29:36,175 - INFO - Loaded 5056 items into Redis
+2025-11-16 13:34:29,538 - INFO - Application started
+2025-11-16 14:15:45,818 - INFO - Application started
+2025-11-16 14:16:05,874 - INFO - Loading CSV...
+2025-11-16 14:16:06,340 - INFO - Total valid rows: 5056
+2025-11-16 14:16:06,340 - INFO - Flushing Redis...
+2025-11-16 14:16:06,355 - INFO - Redis database fully cleared
+2025-11-16 14:16:06,452 - INFO - Inserted 1000/5056...
+2025-11-16 14:16:06,565 - INFO - Inserted 2000/5056...
+2025-11-16 14:16:06,663 - INFO - Inserted 3000/5056...
+2025-11-16 14:16:06,757 - INFO - Inserted 4000/5056...
+2025-11-16 14:16:06,854 - INFO - Inserted 5000/5056...
+2025-11-16 14:16:06,860 - INFO - Inserted 5056/5056...
+2025-11-16 14:16:06,861 - INFO - Successfully inserted 5056 items into Redis.
+2025-11-16 14:17:13,054 - ERROR - /getRecentItem ERROR: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-11-16 14:24:21,551 - INFO - Application started
+2025-11-16 14:24:25,638 - ERROR - Redis not connected - app exited
+2025-11-16 08:56:59,569 - INFO - Application started
+2025-11-16 08:56:59,574 - ERROR - Redis not connected - app exited
+2025-11-16 08:57:00,683 - INFO - Application started
+2025-11-16 08:57:00,686 - ERROR - Redis not connected - app exited
+2025-11-16 08:57:01,821 - INFO - Application started
+2025-11-16 08:57:01,824 - ERROR - Redis not connected - app exited
+2025-11-16 08:57:03,065 - INFO - Application started
+2025-11-16 08:57:03,069 - ERROR - Redis not connected - app exited
+2025-11-16 08:57:04,673 - INFO - Application started
+2025-11-16 08:57:04,676 - ERROR - Redis not connected - app exited
+2025-11-16 08:58:03,158 - INFO - Application started
+2025-11-16 08:58:03,160 - ERROR - Redis not connected - app exited
+2025-11-16 08:58:04,423 - INFO - Application started
+2025-11-16 08:58:04,426 - ERROR - Redis not connected - app exited
+2025-11-16 08:58:05,553 - INFO - Application started
+2025-11-16 08:58:05,555 - ERROR - Redis not connected - app exited
+2025-11-16 08:58:06,929 - INFO - Application started
+2025-11-16 08:58:06,931 - ERROR - Redis not connected - app exited
+2025-11-16 08:58:08,700 - INFO - Application started
+2025-11-16 08:58:08,704 - ERROR - Redis not connected - app exited
+2025-11-16 08:58:11,362 - INFO - Application started
+2025-11-16 08:58:11,364 - ERROR - Redis not connected - app exited
+2025-11-16 08:58:16,032 - INFO - Application started
+2025-11-16 08:58:16,036 - ERROR - Redis not connected - app exited
+2025-11-16 14:31:19,948 - INFO - Application started
+2025-11-16 14:32:52,739 - INFO - Application started
+2025-11-16 14:33:23,025 - INFO - Application started
+2025-11-16 14:33:29,522 - INFO - Application started
+2025-11-16 09:05:10,033 - INFO - Application started

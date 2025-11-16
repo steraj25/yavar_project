@@ -1,0 +1,63 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DotEnvExtraBlankLineInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="DotEnvIncorrectDelimiterInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="DotEnvLowercaseKeyInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="DotEnvSpaceAroundSeparatorInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="DotEnvTrailingWhitespaceInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="EditorConfigUnusedDeclaration" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="11">
+            <item index="0" class="java.lang.String" itemvalue="Django" />
+            <item index="1" class="java.lang.String" itemvalue="asgiref" />
+            <item index="2" class="java.lang.String" itemvalue="mysqlclient" />
+            <item index="3" class="java.lang.String" itemvalue="pandas" />
+            <item index="4" class="java.lang.String" itemvalue="reportlab" />
+            <item index="5" class="java.lang.String" itemvalue="numpy" />
+            <item index="6" class="java.lang.String" itemvalue="Pillow" />
+            <item index="7" class="java.lang.String" itemvalue="xhtml2pdf" />
+            <item index="8" class="java.lang.String" itemvalue="pytz" />
+            <item index="9" class="java.lang.String" itemvalue="requests" />
+            <item index="10" class="java.lang.String" itemvalue="xlrd" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E225" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="userservice.models.usermodels.Employee.*" />
+          <option value="rmuservice.util.rmu_util.Code_series.objects" />
+          <option value="brsservice.utils.brs_utils.Code_series_model.*" />
+          <option value="brsservice.models.brs_models.Code_series.*" />
+          <option value="ledger.models.ledger_models.Trade_fno.*" />
+          <option value="ledger.models.ledger_models.Trade_equity.*" />
+          <option value="ledger.models.ledger_models.Ledger.*" />
+          <option value="expense.models.SMS.*" />
+          <option value="expense.models.Expense.*" />
+          <option value="expense.models.Income.*" />
+          <option value="expense.models.DropDown.*" />
+          <option value="expense.models.Card.*" />
+          <option value="expense.models.Category.*" />
+          <option value="price.models.PriceHistory.*" />
+          <option value="tracker.service.transactions.Transactions.objects" />
+          <option value="tracker.models.Transactions.*" />
+          <option value="tracker.models.Holdings.*" />
+          <option value="tracker.models.PastHoldings.*" />
+          <option value="tracker.models.StockList.*" />
+          <option value="tracker.models.MFList.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
